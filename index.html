@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahin Rahman — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">Mahin</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#data">Analytics</a></li>
+      <li><a href="#youtube">YouTube</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">BBA Student · Researcher · Builder</p>
+      <h1 class="hero-name">
+        <span class="name-text">Mahin Rahman</span>
+      </h1>
+      <p class="hero-sub">
+        I build things, study how people think, and make content about both.<br />
+        Based in Dhaka — working toward something bigger.
+      </p>
+      <div class="hero-tags">
+        <span>Vibe Coding</span>
+        <span>Data Analytics</span>
+        <span>Research</span>
+        <span>Autodesk</span>
+        <span>Psychology Content</span>
+      </div>
+      <a href="#about" class="hero-scroll">↓ Scroll to explore</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container two-col">
+      <div class="section-label">About</div>
+      <div class="section-body">
+        <h2>Who I am</h2>
+        <p>
+          I'm a BBA student at Islamic University of Technology, Dhaka, currently interning at Cixing Bangladesh Ltd. in a marketing role. My work sits at the intersection of business, technology, and human behavior — I research consumer psychology, build web tools with AI assistance, and run a YouTube channel called <em>Tunnel of Mahin's Thought</em> (T.O.M.T) focused on psychology content.
+        </p>
+        <p>
+          I'm building toward graduate study or a research-oriented career abroad. This page is a living record of what I've done and what I'm working on.
+        </p>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <span class="skill-icon">⌨️</span>
+            <span>Vibe Coding (AI-assisted dev)</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">📊</span>
+            <span>Excel · Tableau (learning)</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🔧</span>
+            <span>Autodesk</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">📝</span>
+            <span>Academic Research · APA</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">📈</span>
+            <span>Marketing · Content Strategy</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🧠</span>
+            <span>Consumer Psychology</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt">
+    <div class="container two-col">
+      <div class="section-label">Projects</div>
+      <div class="section-body">
+        <h2>Things I've built</h2>
+        <p class="section-intro">Mostly web apps built with AI-assisted development, Supabase, and vanilla JS.</p>
+        <div class="cards">
+
+          <div class="card">
+            <div class="card-tag">Finance · PWA</div>
+            <h3>My Money</h3>
+            <p>A personal finance PWA with multi-user auth, an AI assistant called Fin (Groq/Llama), Chart.js visualizations, and a Cloudflare Worker proxy. Built on Supabase with row-level security.</p>
+            <div class="card-stack">
+              <span>Vanilla JS</span><span>Supabase</span><span>Groq</span><span>Chart.js</span>
+            </div>
+            <a href="#" class="card-link">View on GitHub →</a>
+          </div>
+
+          <div class="card">
+            <div class="card-tag">Local Business · Template</div>
+            <h3>Restaurant Website System</h3>
+            <p>A five-file static site template for restaurants and cafés, with a booking page, shared design tokens, and an integrated chatbot widget. Built for a micro-agency targeting Dhaka businesses.</p>
+            <div class="card-stack">
+              <span>HTML/CSS/JS</span><span>Chatbot API</span><span>Static</span>
+            </div>
+            <a href="#" class="card-link">View on GitHub →</a>
+          </div>
+
+          <div class="card">
+            <div class="card-tag">AI Chatbot · Widget</div>
+            <h3>Chatbot Widget System</h3>
+            <p>A standalone four-file chatbot widget with FAQ matching, provider-agnostic AI fallback, and support for Groq, Gemini, and Claude APIs. Drop-in ready for any local business site.</p>
+            <div class="card-stack">
+              <span>JS</span><span>Groq</span><span>Gemini</span><span>Claude API</span>
+            </div>
+            <a href="#" class="card-link">View on GitHub →</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section">
+    <div class="container two-col">
+      <div class="section-label">Research</div>
+      <div class="section-body">
+        <h2>Academic work</h2>
+        <p class="section-intro">My research sits at the intersection of marketing, behavioral economics, and consumer psychology.</p>
+
+        <div class="research-item featured">
+          <div class="research-meta">
+            <span class="research-status status-ongoing">Under Review</span>
+            <span class="research-year">2025</span>
+          </div>
+          <h3>Controversy as a Marketing Event</h3>
+          <p class="research-subtitle">Analyzing the Impact of the Niemann–Carlsen Scandal on Global Chess Search Interest</p>
+          <p>A quantitative study using Google Trends data to examine how the cheating scandal between Hans Niemann and Magnus Carlsen drove measurable spikes in global chess search interest. Analysis includes t-tests, Mann-Whitney U, Cohen's d effect sizes, and Pearson correlations across six results tables.</p>
+          <div class="research-methods">
+            <span>t-test</span><span>Mann-Whitney U</span><span>Cohen's d</span><span>Pearson r</span><span>Google Trends</span><span>APA 7</span>
+          </div>
+          <p style="font-size:0.8rem; color: var(--ink-light); margin-top: 0.5rem; margin-bottom: 0 !important;">Publication link will be added once available.</p>
+        </div>
+
+        <div class="research-item">
+          <div class="research-meta">
+            <span class="research-status status-ongoing">BBA Thesis</span>
+            <span class="research-year">2024–25</span>
+          </div>
+          <h3>Nostalgia-Driven AIDA Progression Theory</h3>
+          <p>A conceptual and quantitative framework examining how nostalgia mediates consumer behavior across AIDA stages in Bangladesh's vintage and second-hand book market. Methods include SEM via SmartPLS, eight hypotheses, and the Southampton Nostalgia Scale.</p>
+          <div class="research-methods">
+            <span>SEM</span><span>SmartPLS</span><span>PRISMA 2020</span><span>Quantitative</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DATA ANALYTICS -->
+  <section id="data" class="section section-alt">
+    <div class="container two-col">
+      <div class="section-label">Analytics</div>
+      <div class="section-body">
+        <h2>Data & analytics work</h2>
+        <p class="section-intro">I work with data to find patterns and tell stories. Currently expanding into Tableau.</p>
+
+        <div class="data-grid">
+          <div class="data-card">
+            <div class="data-icon">📊</div>
+            <h3>Excel Analysis</h3>
+            <p>Financial modeling, pivot tables, data cleaning, and visualization. Used extensively in academic and internship contexts.</p>
+            <a href="#" class="card-link">See examples →</a>
+          </div>
+          <div class="data-card">
+            <div class="data-icon">📈</div>
+            <h3>Research Statistics</h3>
+            <p>Applied inferential statistics in research — t-tests, effect sizes, correlations, non-parametric tests. Analysis done in Python and SPSS.</p>
+            <a href="#" class="card-link">See paper →</a>
+          </div>
+          <div class="data-card coming-soon">
+            <div class="data-icon">🔵</div>
+            <h3>Tableau</h3>
+            <p>Currently learning. Dashboards coming soon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- YOUTUBE -->
+  <section id="youtube" class="section">
+    <div class="container two-col">
+      <div class="section-label">YouTube</div>
+      <div class="section-body">
+        <h2>Tunnel of Mahin's Thought</h2>
+        <p>
+          T.O.M.T is my YouTube channel focused on psychology — how people think, decide, feel, and behave. I use it to explore ideas from consumer psychology, behavioral science, and everyday mental life.
+        </p>
+
+        <div class="yt-videos">
+          <div class="yt-embed-wrapper">
+            <iframe src="https://www.youtube.com/embed/7AIc7yeYHiU?si=msC3CGC0tbgImXkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="yt-embed-wrapper">
+            <iframe src="https://www.youtube.com/embed/ie4s6wBEov4?si=la5zNsLvQJRFzVmH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="yt-embed-wrapper">
+            <iframe src="https://www.youtube.com/embed/E0-jkpjhaxE?si=5lZzsAj2TZlQTWPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <a href="https://www.youtube.com/@tunnelofmahinsthought" target="_blank" rel="noopener" class="yt-button">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          See all videos on YouTube
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog" class="section section-alt">
+    <div class="container two-col">
+      <div class="section-label">Blog</div>
+      <div class="section-body">
+        <h2>Writing</h2>
+        <p class="section-intro">Occasional long-form writing on psychology, business, and ideas I'm working through.</p>
+        <div class="blog-list">
+          <div class="blog-item placeholder">
+            <span class="blog-date">Coming soon</span>
+            <h3>Posts will appear here</h3>
+            <p>I'll be writing about research findings, tools I build, and things I learn along the way.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container two-col">
+      <div class="section-label">Contact</div>
+      <div class="section-body">
+        <h2>Get in touch</h2>
+        <p>Open to research collaborations, job opportunities, internships, and conversations about grad school abroad. Best reached by email.</p>
+        <div class="contact-links">
+          <a href="mailto:your@email.com" class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <span>your@email.com</span>
+          </a>
+          <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">💼</span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/yourhandle" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">🐙</span>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.youtube.com/@tunnelofmahinsthought" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">▶️</span>
+            <span>YouTube — T.O.M.T</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Mahin Rahman · Built with HTML, CSS & GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
