@@ -393,6 +393,41 @@ img { max-width: 100%; display: block; }
 .yt-button:hover { opacity: 0.88; transform: translateY(-1px); }
 .yt-note { font-size: 0.85rem; color: var(--ink-light); margin-top: 0.5rem !important; }
 
+/* ─── HOBBIES ────────────────────────────────────────── */
+.hobby-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+.hobby-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.hobby-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 4px 20px rgba(79, 70, 229, 0.07);
+}
+.hobby-icon { font-size: 1.75rem; }
+.hobby-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+.hobby-card p {
+  font-size: 0.875rem;
+  color: var(--ink-light);
+  margin: 0;
+  max-width: none;
+  line-height: 1.65;
+}
+
 /* ─── SUBSTACK ───────────────────────────────────────── */
 .substack-cta {
   display: flex;
@@ -532,6 +567,8 @@ img { max-width: 100%; display: block; }
   .skills-grid { grid-template-columns: 1fr; }
   .data-grid { grid-template-columns: 1fr; }
   .yt-videos { grid-template-columns: 1fr; }
+  .hobby-grid { grid-template-columns: 1fr; }
+  .substack-cta { flex-direction: column; text-align: center; }
   .hero { padding-top: calc(var(--nav-h) + 3rem); }
 }
 
