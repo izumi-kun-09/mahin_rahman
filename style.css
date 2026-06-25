@@ -192,6 +192,42 @@ img { max-width: 100%; display: block; }
 .section-body p { color: var(--ink-light); margin-bottom: 1rem; max-width: 620px; }
 .section-intro { font-size: 1rem; }
 
+/* ─── PHOTOS ─────────────────────────────────────────── */
+.hero-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--white);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  margin-bottom: 1.25rem;
+}
+.about-top {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+.about-text { flex: 1; }
+.about-text h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+}
+.about-text p { color: var(--ink-light); margin-bottom: 1rem; max-width: 620px; }
+.about-photo-wrap { flex-shrink: 0; }
+.about-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--white);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  display: block;
+}
+
 /* ─── SKILLS GRID ────────────────────────────────────── */
 .skills-grid {
   display: grid;
@@ -616,6 +652,8 @@ img { max-width: 100%; display: block; }
   .yt-videos { grid-template-columns: 1fr; }
   .hobby-grid { grid-template-columns: 1fr; }
   .substack-cta { flex-direction: column; text-align: center; }
+  .about-top { flex-direction: column-reverse; align-items: center; }
+  .about-photo { width: 120px; height: 120px; }
   .hero { padding-top: calc(var(--nav-h) + 3rem); }
 }
 
