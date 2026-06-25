@@ -194,10 +194,11 @@ img { max-width: 100%; display: block; }
 
 /* ─── PHOTOS ─────────────────────────────────────────── */
 .hero-photo {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center top;
   border: 3px solid var(--white);
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   margin-bottom: 1.25rem;
@@ -219,10 +220,11 @@ img { max-width: 100%; display: block; }
 .about-text p { color: var(--ink-light); margin-bottom: 1rem; max-width: 620px; }
 .about-photo-wrap { flex-shrink: 0; }
 .about-photo {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center top;
   border: 4px solid var(--white);
   box-shadow: 0 8px 32px rgba(0,0,0,0.1);
   display: block;
